@@ -1,8 +1,8 @@
-/* a variável let = muda o valor e a const não muda o valor. Não tem como criar uma variável sem const ou let*/
+//a variável let = muda o valor e a const não muda o valor. Não tem como criar uma variável sem const ou let
 
 
 
-/*o JS vai gerar o link e por isso vamos colocar na const só o usuario */
+//o JS vai gerar o link e por isso vamos colocar na const só o usuario 
 const linksSocialMedia = {
 
      github : "jakeliny",
@@ -12,7 +12,7 @@ const linksSocialMedia = {
      twitter : "jakelinytec"
 }
 
-/*função que muda o valor dos dados */
+//função que muda o valor dos dados 
 function changeSocialMediaLinks(){
       /*vamos usar o DOM aqui */
      
