@@ -20,7 +20,7 @@ function changeSocialMediaLinks(){
       //const social = li.getAttribute('class') //dentro da const  estou pegando a classe da li
            
          li.children[0].href = "https://www.youtube.com/maykbrito" //passando o novo conteúdo do href   
-         alert(li.children[0].href) //[0] posição do filho da li.
+        // alert(li.children[0].href) //[0] posição do filho da li.
         
       }
 
