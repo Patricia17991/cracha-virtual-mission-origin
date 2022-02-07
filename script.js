@@ -7,12 +7,13 @@ const links = {
      youtube : "jakelinygracielly",
      facebook : "maykbrito",
      instagram : "jakeliny.gracielly",
-     twitter : "jakelinytec",
+     twitter : "jakelinytec"
 }
 
+
 /*função é um tipo de dado estruturado(forma de agrupar comando do JS) */
-function showMeSomething(){
-    alert('olá');
+function showMeSomething(texto){ /*texto é uma variável dentro d função, por isso não tem const ou let */
+    alert(texto);
 
 };
 
