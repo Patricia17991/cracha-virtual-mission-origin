@@ -17,10 +17,10 @@ function changeSocialMediaLinks(){
       /*vamos usar o DOM aqui */
      
       for(let li of socialLinks.children ){ //o children vai pegar todos os filhos do id socialLinks um de cada vez
-      //const social = li.getAttribute('class') //dentro da const  estou pegando a classe da li
+      const social = li.getAttribute('class') //dentro da const  estou pegando a classe da li
            
-         li.children[0].href = "https://www.youtube.com/jakelinygracielly" //passando o novo conteúdo do href   
-        // alert(li.children[0].href) //[0] posição do filho da li.
+            li.children[0].href =`https://${social}.com/` //passando o novo conteúdo do href.
+         // alert(li.children[0].href) //[0] posição do filho da li.
         
       }
 
