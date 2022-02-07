@@ -3,7 +3,7 @@
 
 
 //o JS vai gerar o link e por isso vamos colocar na const só o usuario 
-const linksSocialMedia = {
+const LinksSocialMedia = {
 
      github : "jakeliny",
      youtube : "jakelinygracielly",
@@ -19,7 +19,7 @@ function changeSocialMediaLinks(){
       for(let li of socialLinks.children ){ //o children vai pegar todos os filhos do id socialLinks um de cada vez
       const social = li.getAttribute('class') //dentro da const  estou pegando a classe da li
            
-            li.children[0].href =`https://${social}.com/` //passando o novo conteúdo do href.
+            li.children[0].href =`https://${social}.com/${LinksSocialMedia[social]}` //passando o novo conteúdo do href.
          // alert(li.children[0].href) //[0] posição do filho da li.
         
       }
