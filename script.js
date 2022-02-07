@@ -3,7 +3,7 @@
 
 
 /*o JS vai gerar o link e por isso vamos colocar na const só o usuario */
-const links = {
+const linksRedesSociais = {
 
      github : "jakeliny",
      youtube : "jakelinygracielly",
