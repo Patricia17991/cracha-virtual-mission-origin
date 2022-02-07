@@ -2,7 +2,7 @@
 
 /*função é um tipo de dado estruturado(forma de agrupar comando do JS) */
 function showMeSomething(){ /*texto é uma variável dentro da função, por isso não tem const ou let */
-    alert();
+    alert(links.github);
 
 };
 
