@@ -18,4 +18,4 @@ function showMeSomething(texto){ /*texto é uma variável dentro d função, por
 };
 
 /*chamando a função */
-showMeSomething();
+showMeSomething("amigo estou aqui"); /*definindo o que vai entrar na função (na variável texto) */
