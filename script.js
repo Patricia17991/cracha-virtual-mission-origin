@@ -12,4 +12,6 @@ const links = {
      twitter : "jakelinytec"
 }
 
-/*DOM - document object model (modelo de documento do objeto)*/
+
+/*DOM - document object model (modelo de documento do objeto)
+. É um documento importante que ajuda o  browser a trabalhar mapeadno os objetos*/
