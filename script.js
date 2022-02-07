@@ -12,3 +12,4 @@ const links = {
      twitter : "jakelinytec"
 }
 
+/*DOM - document object model (modelo de documento do objeto)*/
