@@ -14,4 +14,4 @@ const links = {
 
 
 /*DOM - document object model (modelo de documento do objeto)
-. É um documento importante que ajuda o  browser a trabalhar mapeadno os objetos*/
+. É um documento importante que ajuda o  browser a trabalhar mapeadno os objetos(os elementos do html5)*/
