@@ -12,6 +12,7 @@ const linksSocialMedia = {
      twitter : "jakelinytec"
 }
 
+/*função que muda o valor dos dados */
+function changeSocialMediaLinks(){
 
-/*DOM - document object model (modelo de documento do objeto)
-. É um documento importante que ajuda o  browser a trabalhar mapeadno os objetos(os elementos do html5)*/
+}
