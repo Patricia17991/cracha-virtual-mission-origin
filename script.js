@@ -16,6 +16,8 @@ const linksSocialMedia = {
 function changeSocialMediaLinks(){
       /*vamos usar o DOM aqui */
     document.getElementById('userName').textContent = 'Patricia'; /*pegando o elemento pelo id que esta lá no html, o textContent é p/ mudar o valor recebido anteriormente */
+     
+      userName.textcontent = 'Marcelo' /*faz o mesmo da função acima */
 }
  
 changeSocialMediaLinks();
