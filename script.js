@@ -16,7 +16,10 @@ const linksSocialMedia = {
 function changeSocialMediaLinks(){
       /*vamos usar o DOM aqui */
      
-      userName.textContent = 'Marcelo';
+      for(let i = 0; i <= 10; i ++){
+        
+    }
+
 }
  
 changeSocialMediaLinks();
