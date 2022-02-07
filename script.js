@@ -16,7 +16,7 @@ const linksSocialMedia = {
 function changeSocialMediaLinks(){
       /*vamos usar o DOM aqui */
      
-      for(let i = 0; i <= 10; i ++){
+      for(let li of socialLinks.children ){
         alert(i)
     }
 
