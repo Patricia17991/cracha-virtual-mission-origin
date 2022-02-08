@@ -38,6 +38,7 @@ function getGitHubProfileInfos(){
      .then(data => {
          //vamos pegar no html os elementos que queremos dentro do data.
           userName.textContent = data.name
+          userBio.textContent = data.bio
      }) //armazena em json
 }
     
