@@ -41,4 +41,4 @@ function getGitHubProfileInfos(){
 
 getGitHubProfileInfos()
 
-//promise no js é um recurso que usamos p/ pegar respostas de alguma coisa
+//promise no js é um recurso que usamos p/ pegar respostas de alguma coisa (.then())
