@@ -1,9 +1,9 @@
 const LinksSocialMedia = {
-  github: 'jakeliny',
-  youtube: 'jakelinygracielly',
-  twitch: 'jakeliny',
-  instagram: 'jakeliny.gracielly',
-  twitter: 'jakelinytec'
+  github: "maykbrito",
+  youtube: "maykbrito",
+  twitch: "maykbrito",
+  instagram: "maykbrito",
+  twitter: "maykbrito"
 }
 
 function changeSocialMediaLinks() {
