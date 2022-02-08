@@ -4,6 +4,7 @@
 
 //o JS vai gerar o link e por isso vamos colocar na const só o usuario 
 const LinksSocialMedia = {
+    //para mudar as informações basta mudar essas aqui
 
      github : "jakeliny",
      youtube : "jakelinygracielly",
