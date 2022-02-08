@@ -27,3 +27,13 @@ function changeSocialMediaLinks(){
 }
  
 changeSocialMediaLinks();
+
+//função que pega as informações do github e trás p/ aqui p/ depois substituirmos no html.
+function getGitHubProfileInfos(){
+     //definir url da api do github
+     const url = `https://api.github.com/users/${LinksSocialMedia.github}`
+
+     alert(url)
+}
+
+getGitHubProfileInfos()
