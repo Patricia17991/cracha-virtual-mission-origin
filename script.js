@@ -39,7 +39,7 @@ function getGitHubProfileInfos(){
          //vamos pegar no html os elementos que queremos dentro do data.
           userName.textContent = data.name
           userBio.textContent = data.bio
-          userLink.textContent = data.html_url
+          userLink.href = data.html_url 
      }) //armazena em json
 }
     
