@@ -34,13 +34,16 @@ function getGitHubProfileInfos(){
      const url = `https://api.github.com/users/${LinksSocialMedia.github}`
 
      //chegando na url e pegando o que ela responder, no caso o JSON (usando o comando fetch)
-     fetch(url).then(response => response.json()) //transforma em json
+    fetch(url)
+     .then(response => response.json()) 
      .then(data => {
-         //vamos pegar no html os elementos que queremos dentro do data.
-          userName.textContent = data.name
-          userBio.textContent = data.bio
-          userLink.href = data.html_url 
-          userPhoto.src = data.avatar_url
+         userName.textContent = data.name
+         userBio.textContent = data.bio
+         userLink.href =  data.html_url
+         userPhoto.src = data.avatar_url
+         userLink.textContent = data.login
+         
+     }) //armazena em json
 
      }) //armazena em json
 }
