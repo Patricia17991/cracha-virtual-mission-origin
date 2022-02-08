@@ -1,62 +1,66 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <title>Patricia Lima - DoWhile 2021</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Jakeliny Gracielly - DoWhile 2021</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
 </head>
+
 <body>
-    <main>
+  <main>
+    <div class="container">
+      <div class="avatar">
+        <span>
+          <img src="images/build.svg" alt="Selo Rocketseat" />
+        </span>
+        <img src="https://lorempixel.com/185/185/people/" alt="Foto pessoal" id="UserImage" />
+      </div>
 
-        <div class="container">
+      <h1 id="userName">Jakeliny Gracielly</h1>
+      <a id="userLink" href="https://github.com/" target="_blank">
+        <img src="images/github.svg" alt="ícone github" />
+        <span id="userLogin">jakeliny</span></a>
 
-            <div class="avatar">
-                <span>
-                    <img src="images/build.svg" alt="Selo Rocketseat"/>
-                </span>
-               
-                <img src="images/perfil.svg" alt="Foto pessoal" id="userImage" />
-                <!--https://lorempixel.com/185/185/people/
-                onde achar fotos de perfil-->
-            </div>
+      <p id="userBio">
+        An instructor focused on helping pople start programming for web
+      </p>
 
-            <h1 id="userName" >Patricia Lima</h1>
-            <a id="userLink" href="https://www.instagram.com/patricia_l.felismino_/">
-                <img src="images/github.svg" alt="ícone github">
-                <span id="userLogin" >patricialima</span>
-            </a>
-            <p id="userBio">
-                An instructor focused on helping people start programing for web
-            </p>
-            <ul id="socialLinks" > <!--usando lista para colocar icones-->
-                <li class="youtube">
-                    <a href="https://youtube.com/maykbrito.com" target="_blanck">
-                    <img src="images/youtube.svg" alt="ícone youtube" />
-                    </a>
-                </li>
-                <li class="facebook">
-                    <a href="https://facebook.com/maykbrito.com"  target="_blanck"></a>
-                    <img src="images/facebook.svg" alt="ícone facebook" />
-                </li>
-                <li class="instagram">
-                    <a href="https://instagram.com/maykbrito.com"  target="_blanck"></a>
-                    <img src="images/instagram.svg" alt="ícone instagram" />
-                </li>
-                <li class="twitter">
-                    <a href="https://twitter.com/maykbrito.com"  target="_blanck"></a>
-                    <img src="images/twitter.svg" alt="ícone twitter"/>
-<!--para quando clicar no ícone abrir uma aba nova usamos o target="_blanck" (pq se o usuário for redirecionado p/ outra página que se sobrepos sobre essa , provavelmente não voltará mais para essa) ele deve ficar no link pq a tag img não usa-->                </li>
-                
-            </ul>
-        </div>
+      <ul id="socialLinks">
+        <li class="youtube">
+          <a href="https://youtube.com/" target="_blank">
+            <img src="images/youtube.svg" alt="ícone youtube" />
+          </a>
+        </li>
+        <li class="twitch">
+          <a href="https://twitch.com/" target="_blank">
+            <img src="images/twitch.svg" alt="ícone twitch" />
+          </a>
+        </li>
+        <li class="instagram">
+          <a href="https://instagram.com/" target="_blank">
+            <img src="images/instagram.svg" alt="ícone instagram" />
+          </a>
+        </li>
+        <li class="twitter">
+          <a href="https://twitter.com/" target="_blank">
+            <img src="images/twitter.svg" alt="ícone twitter" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </main>
 
-    </main>
-     <script src="script.js"></script>
-    <!--o script está no final p/ primeiro carregar o site e depois a parte do JS (pq precisamos que o site esteja carregado antes de acessar a DOM)-->
+  <script src="main.js"></script>
 </body>
+
 </html>
