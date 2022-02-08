@@ -33,6 +33,9 @@ function getGitHubProfileInfos(){
      //definir url da api do github
      const url = `https://api.github.com/users/${LinksSocialMedia.github}`
 
+     //chegando na url e pegando o que ela responder, no caso o JSON (usando o comando fetch)
+     fetch(url)
+
     
 }
 
