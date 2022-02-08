@@ -33,7 +33,7 @@ function getGitHubProfileInfos(){
      //definir url da api do github
      const url = `https://api.github.com/users/${LinksSocialMedia.github}`
 
-     alert(url)
+    
 }
 
 getGitHubProfileInfos()
