@@ -22,10 +22,12 @@ body {
 
 main {
     
-    background: url(images/background.svg); /*colocando img no background*/
+     /*no-repeat center/cover é p/não repetir a img no fundo de uma forma que ela ocupe todo o background*/
+    background: url(images/background.svg)no-repeat center/cover; /*colocando img no background*/
     width: 100vw; /*nesse caso compensa mais usar o px do que o rem*/
     min-height: 812px; /*altura*/
-    height:100vh;
+    height: 100vw;
+
 
 }
 
