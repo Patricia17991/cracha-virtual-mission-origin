@@ -21,8 +21,8 @@ body {
 }
 
 main {
-    
-     background: url(images/background.svg) no-repeat center/cover; /*não repetir imagem, alinhar conteúdo ao centro, cobrir todo o fundo*/
+    /*congiguração p/ dispositivos móveis*/
+    background: url(images/background.svg) no-repeat center/cover; /*não repetir imagem, alinhar conteúdo ao centro, cobrir todo o fundo*/
     width: 100vw; /*vw é pegar a largura total da tela e preencher tudo*/
     min-height: 812px; /*altura minima*/
     height: 100vw; /*altura normal*/
