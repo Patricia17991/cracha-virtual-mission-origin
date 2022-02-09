@@ -23,9 +23,9 @@ body {
 main {
     
     background: url(images/background.svg); /*colocando img no background*/
-    width: 100vh; /*nesse caso compensa mais usar o px do que o rem*/
+    width: 100vw; /*nesse caso compensa mais usar o px do que o rem*/
     min-height: 812px; /*altura*/
-    height:100vh;
+    height:100vw;
 
 }
 
