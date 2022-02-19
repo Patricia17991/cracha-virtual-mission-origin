@@ -3,21 +3,20 @@
     margin: 0;
 }
 
-
 html, body{
-
     --black:hsl(240, 6%, 13%);
     --gray:hsl(240, 9%, 89%); /*cor-saturaçao-luz da cor*/
     
     height: 100%;
     font-family: 'Roboto', 'sans-serif';
     -webkit-font-smoothing: antialiased; /*suavizar a cor da fonte*/
+    
 }
 
 body {
-    
     display: grid;
     place-items: center;
+    
 }
 
 main {
@@ -27,17 +26,16 @@ main {
     min-height: 812px; /*altura minima*/
     height: 100vw; /*altura normal*/
 
-
 }
 
 .container {
- 
     max-width: 250px; /*largura máxima*/
     margin-left: auto; /*colocando tudo ao centro usando o espaçamento das margens*/
     margin-right: auto;
     text-align: center; /*alinhando tudo ao centro*/
 
     color:var(--gray);
+    
 }
    
 .avatar {
@@ -46,31 +44,29 @@ main {
     /* 0 0 0 0 = top-light-right-left*/
 
     position:relative;
+    
 }
 
 .avatar span{
-
     position: absolute; /*sobrepor uma imagem á outra*/
     top: -15px;
     z-index: 1; /*trabalha o posicionamento do eixo z, nesse caso o clip-path tirou a propriedade absolute e assim ela volta*/
 }
 
 .avatar > img { /* > vai procurar a img do primeiro nível*/
- 
    width: 10rem;
    height: 11.5rem;
    object-fit: cover; /*para a img se adaptar dentro da largura e altura q/ eu definir*/
    
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%); /*para criar o efeito do poligono na img, ela ficar nesse formato de poligono*/
+    
 }
 
 h1 {
-
     font-size: 1.5rem;
 
     /*vamos separar os textos em pequenas distâncias*/
     margin-top: 1.5rem;
-
 
 }
 
@@ -93,13 +89,13 @@ a {
 p {
      /*vamos separar os textos em pequenas distâncias*/
     margin-top: 2rem;
+    
 }
 
 ul {
      /*vamos separar os textos em pequenas distâncias*/
      margin-top: 3rem;
 
-    
      list-style: none; /*tira as marcações das listas q/ vem por padrão*/
      padding: 0;
    
