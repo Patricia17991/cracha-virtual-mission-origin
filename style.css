@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-html, body{
+html, body {
     --black:hsl(240, 6%, 13%);
     --gray:hsl(240, 9%, 89%); /*cor-saturaçao-luz da cor*/
     
@@ -42,7 +42,6 @@ main {
     width: 10rem; /*largura*/
     margin: 11.5rem auto 0; 
     /* 0 0 0 0 = top-light-right-left*/
-
     position:relative;
     
 }
