@@ -1,4 +1,4 @@
-/*seletor universal*/
+
 * {
     margin: 0;
 }
@@ -29,17 +29,17 @@ main {
 }
 
 .container {
-    max-width: 250px; /*largura máxima*/
+    max-width: 250px; 
     margin-left: auto; /*colocando tudo ao centro usando o espaçamento das margens*/
     margin-right: auto;
-    text-align: center; /*alinhando tudo ao centro*/
+    text-align: center; 
 
     color:var(--gray);
     
 }
    
 .avatar {
-    width: 10rem; /*largura*/
+    width: 10rem; 
     margin: 11.5rem auto 0; 
     /* 0 0 0 0 = top-light-right-left*/
     position:relative;
@@ -52,12 +52,12 @@ main {
     z-index: 1; /*trabalha o posicionamento do eixo z, nesse caso o clip-path tirou a propriedade absolute e assim ela volta*/
 }
 
-.avatar > img { /* > vai procurar a img do primeiro nível*/
+.avatar > img { 
    width: 10rem;
    height: 11.5rem;
    object-fit: cover; /*para a img se adaptar dentro da largura e altura q/ eu definir*/
    
-  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%); /*para criar o efeito do poligono na img, ela ficar nesse formato de poligono*/
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%); 
     
 }
 
@@ -85,14 +85,12 @@ a {
     
 }
 
-p {
-     /*vamos separar os textos em pequenas distâncias*/
+p {  
     margin-top: 2rem;
     
 }
 
 ul {
-     /*vamos separar os textos em pequenas distâncias*/
      margin-top: 3rem;
 
      list-style: none; /*tira as marcações das listas q/ vem por padrão*/
@@ -101,10 +99,10 @@ ul {
      display: flex; /*um elemento ao lado do outro*/
      gap: 0.5rem; /*espaço entre os elementos*/
    
-     justify-content: center; /*alinhamento central*/ 
+     justify-content: center; 
      /*opção liberada graças ao display:flex*/
 
 }
 
-/*se usa a % como medida flexível, além dela tem o rem*/
+
 /*padding é um preenchimento da caixa*/
