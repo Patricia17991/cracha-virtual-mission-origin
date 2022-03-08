@@ -4,7 +4,7 @@ const LinksSocialMedia = {
      facebook : "maykbrito",
      instagram : "maykbrito",
      twitter : "maykbrito"
-}
+} 
 
 function changeSocialMediaLinks() {
   for (let li of socialLinks.children) {
