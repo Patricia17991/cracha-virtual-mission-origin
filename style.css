@@ -6,6 +6,7 @@ html, body {
     --black:hsl(240, 6%, 13%);
     --gray:hsl(240, 9%, 89%); /*cor-saturaçao-luz da cor*/
     
+    
     height: 100%;
     font-family: 'Roboto', 'sans-serif';
     -webkit-font-smoothing: antialiased; /*suavizar a cor da fonte*/
@@ -62,7 +63,6 @@ main {
 
 h1 {
     font-size: 1.5rem;
-
     /*vamos separar os textos em pequenas distâncias*/
     margin-top: 1.5rem;
 
@@ -99,7 +99,6 @@ ul {
      gap: 0.5rem; 
    
      justify-content: center; 
-     /*opção liberada graças ao display:flex*/
 
 }
 
