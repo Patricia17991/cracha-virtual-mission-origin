@@ -1,6 +1,6 @@
 # cracha-virtual-mission-origin
 
- Desenvolvimento de um  crachá virtual usando HTML5, CSS3, JS e API do GitHub...
+ Desenvolvimento de um  crachá virtual usando HTML5, CSS3, JS e API do GitHub,etc.
 
  Você pode ver o crachá pelo link: https://patricia17991.github.io/cracha-virtual-mission-origin/
 
